@@ -1,0 +1,59 @@
+# ==========================
+# Python / Django
+# ==========================
+
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/db.sqlite3
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# ==========================
+# React / Vite
+# ==========================
+
+frontend/node_modules/
+frontend/dist/
+
+# ==========================
+# VS Code
+# ==========================
+
+.vscode/
+
+# ==========================
+# JetBrains IDEs
+# ==========================
+
+.idea/
+
+# ==========================
+# OS files
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python cache
+# ==========================
+
+*.py[cod]
+*.egg-info/
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+
+# ==========================
+# Build files
+# ==========================
+
+coverage/

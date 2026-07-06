@@ -1,0 +1,221 @@
+.about-page{
+    background:#F8FBFF;
+}
+
+/* Hero Section */
+
+.about-hero{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:60px;
+    padding:80px 70px;
+}
+
+.about-hero-left h1{
+    font-size:48px;
+    color:#1F2937;
+    margin-bottom:25px;
+}
+
+.about-hero-left p{
+    color:#666;
+    line-height:1.9;
+    font-size:18px;
+}
+
+.about-hero-right img{
+    width:100%;
+    border-radius:30px;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+/* Who We Are */
+
+.about-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+    padding:70px;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:30px;
+}
+
+.about-text h2{
+    font-size:38px;
+    margin-bottom:20px;
+    color:#1F2937;
+}
+
+.about-text p{
+    color:#555;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+/* Mission & Vision */
+
+.mission-section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    padding:20px 70px 70px;
+}
+
+.mission-card{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.mission-card:hover{
+    transform:translateY(-8px);
+}
+
+.mission-card svg{
+    font-size:48px;
+    color:#4A90E2;
+    margin-bottom:20px;
+}
+
+.mission-card h3{
+    font-size:28px;
+    color:#1F2937;
+    margin-bottom:15px;
+}
+
+.mission-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+.why-us{
+    padding:70px;
+    text-align:center;
+}
+
+.why-us h2{
+    font-size:40px;
+    color:#1F2937;
+    margin-bottom:50px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.why-card{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card svg{
+    font-size:45px;
+    color:#4A90E2;
+    margin-bottom:20px;
+}
+
+.why-card h3{
+    color:#1F2937;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+.stats-section{
+    background:#4A90E2;
+    padding:70px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.stat-card{
+    color:white;
+}
+
+.stat-card h2{
+    font-size:52px;
+    margin-bottom:12px;
+}
+
+.stat-card p{
+    font-size:18px;
+    opacity:.95;
+}
+
+.about-cta{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about-cta h2{
+    font-size:42px;
+    color:#1F2937;
+    margin-bottom:20px;
+}
+
+.about-cta p{
+    max-width:650px;
+    margin:0 auto 35px;
+    color:#666;
+    line-height:1.8;
+    font-size:18px;
+}
+
+@media (max-width:768px){
+
+    .about-hero{
+        grid-template-columns:1fr;
+        text-align:center;
+        padding:50px 20px;
+    }
+
+    .about-content{
+        grid-template-columns:1fr;
+        padding:50px 20px;
+    }
+
+    .mission-section{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .why-us{
+        padding:50px 20px;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .stats-section{
+        grid-template-columns:repeat(2,1fr);
+        padding:50px 20px;
+    }
+
+    .about-cta{
+        padding:50px 20px;
+    }
+
+}
