@@ -134,6 +134,8 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://hospital-management-website-gamma.vercel.app",
+    "https://hospital-management-website-68mqv7g1u-hospital-project.vercel.app",
 ]
 
 REST_FRAMEWORK = {
